@@ -15,7 +15,7 @@ object selectExample {
 
     val df = spark.read.format("csv")
       .option("header", true)
-      .load("D:\\SampleData\\IPL\\matches.csv");
+      .load(".\\sample_data\\matches.csv");
 
     //df.show();
 
